@@ -1,0 +1,176 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101c17;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+    line-height: 1.7;
+}
+
+/* CABEÇALHO */
+
+header {
+    background: linear-gradient(135deg, #064b32, #10291e);
+    min-height: 220px;
+    text-align: center;
+    padding: 55px 20px;
+    border-bottom: 4px solid #c9a227;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #f5d76e;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #dddddd;
+}
+
+/* MENU */
+
+nav {
+    background-color: #09291d;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #c9a227;
+}
+
+nav a {
+    color: #f5d76e;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #c9a227;
+    color: #102018;
+    border-radius: 8px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 25px;
+    background-color: #1b2b23;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+}
+
+article h1 {
+    color: #f5d76e;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-left: 5px solid #c9a227;
+    padding-left: 15px;
+}
+
+article h2 {
+    color: #d9bd62;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #496454;
+    padding-bottom: 8px;
+}
+
+article p {
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 1.05em;
+    color: #dddddd;
+}
+
+article strong {
+    color: #f5d76e;
+}
+
+/* IMAGENS */
+
+.baianinho-img {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 3px solid #c9a227;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* CURIOSIDADES */
+
+aside {
+    background-color: #0e3828;
+    padding: 25px;
+    margin: 30px 0;
+    border-left: 5px solid #c9a227;
+    border-radius: 10px;
+}
+
+aside h3 {
+    color: #f5d76e;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    padding-left: 25px;
+}
+
+aside li {
+    margin: 12px 0;
+    color: #eeeeee;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #071a12;
+    color: #d8bd65;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 2px solid #c9a227;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    main {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    article h1 {
+        font-size: 1.6em;
+    }
+
+    .baianinho-img {
+        width: 100%;
+    }
+}
